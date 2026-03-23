@@ -1,12 +1,12 @@
-import regularBowl from "@/assets/regular-bowl.jpg";
-import proteinBowl from "@/assets/protein-bowl.jpg";
-import premiumBowl from "@/assets/premium-bowl.jpg";
+import basicPlanImg from "@/assets/basic-plan.png";
+import midPlanImg from "@/assets/mid-plan.png";
+import premiumPlanImg from "@/assets/premium-plan.png";
 import { useScrollReveal } from "@/hooks/useScrollReveal";
 
 const items = [
-  { name: "Regular Fruit Bowl", price: "₹99", desc: "Seasonal fruits – watermelon, cantaloupe, grapes & kiwi", img: regularBowl, tag: "Popular" },
-  { name: "Protein Fruit Bowl", price: "₹149", desc: "Mixed berries, banana, granola, chia seeds & yogurt", img: proteinBowl, tag: "Healthy" },
-  { name: "Premium Mix Bowl", price: "₹199", desc: "Exotic dragon fruit, mango, pomegranate & blueberries", img: premiumBowl, tag: "Premium" },
+  { name: "Basic Fuel Bowl", price: "₹69", desc: "Simple, refreshing, everyday fruit bowl.", img: basicPlanImg, tag: "Popular" },
+  { name: "Mid Fuel Bowl", price: "₹89", desc: "A more balanced mix with added variety.", img: midPlanImg, tag: "Healthy" },
+  { name: "Premium Fuel Bowl", price: "₹119", desc: "A rich and colorful bowl with premium fruits.", img: premiumPlanImg, tag: "Premium" },
 ];
 
 const Menu = () => {

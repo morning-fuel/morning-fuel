@@ -1,4 +1,4 @@
-import heroImg from "@/assets/hero-fruit.png";
+import heroImg from "@/assets/hero-fruite-dish.png";
 import { Leaf } from "lucide-react";
 
 const Hero = () => {

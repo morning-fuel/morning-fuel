@@ -1,4 +1,4 @@
-import logo from "@/assets/logo.jpg";
+import logo from "@/assets/logo.png";
 import { Instagram, Mail, MessageCircle } from "lucide-react";
 
 const Footer = () => (

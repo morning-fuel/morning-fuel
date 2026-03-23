@@ -1,8 +1,8 @@
 import { useState } from "react";
 import { useScrollReveal } from "@/hooks/useScrollReveal";
 
-const bowls = ["Regular Fruit Bowl (₹99)", "Protein Fruit Bowl (₹149)", "Premium Mix Bowl (₹199)"];
-const planOptions = ["No Plan – One Time", "5 Days Plan (₹1,800/mo)", "7 Days Plan (₹2,500/mo)"];
+const bowls = ["Basic Fuel Bowl (₹69)", "Mid Fuel Bowl (₹89)", "Premium Fuel Bowl (₹119)"];
+const planOptions = ["No Plan – One Time", "5 Days Basic Plan (₹1,449/mo)", "5 Days Mid Plan (₹1,849/mo)", "5 Days Premium Plan (₹2,449/mo)"];
 
 const OrderForm = () => {
   const { ref, isVisible } = useScrollReveal();
@@ -34,7 +34,7 @@ const OrderForm = () => {
               value={form.name}
               onChange={(e) => setForm({ ...form, name: e.target.value })}
               className="w-full border border-border rounded-xl px-4 py-3 text-sm bg-background focus:outline-none focus:ring-2 focus:ring-primary/40 transition"
-              placeholder="Rahul Sharma"
+              placeholder="Satish Dabhi"
             />
           </div>
           <div>
